@@ -1,0 +1,713 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+body{
+    font-family: sans-serif;
+    margin: auto;
+    padding: 0;
+    align-items: center;
+    position: relative;
+}
+div {
+    margin:45px 0px 10px 80px;
+}
+
+/* ------- div0 links-------- */
+.div0 .login a{
+    color:black;
+    text-decoration: none;
+}
+.div0 .signup a{
+    color:white ;
+    text-decoration: none;
+}
+
+.div0 .img1 {
+    cursor: pointer;
+    float: left;
+    padding-top: 20px;
+    height: 60px;
+    width: auto;
+    margin-right: 250px;
+    padding-left: 80px;
+}
+button{
+    margin-right: 20px;
+}
+.login{
+    font-weight: 700;
+    cursor: pointer;
+    font-size:0.9em;
+    border: none;
+    background: none;
+}
+.signup{
+    padding: 10px 25px;
+    background-color: black;
+    color: white;
+    font-weight: 700;
+    font-size: 0.8em;
+    cursor: pointer;
+}
+.img1 button{
+    margin-right: 50px;
+    overflow-x: hidden;
+}
+.img2{
+    float: right;
+    margin-top: -180px;
+    margin-right: 0px;
+    height: 550px;
+    width: 50%;
+}
+.type{
+    margin-left: 90px;
+    padding-top: 30px;
+    font-weight: 600;
+}
+.p1{
+    margin-top:  100px;
+    opacity: 0.5;
+    font-size: 1.5em;
+
+}
+.div3{
+    margin-top: 30px;
+    border-right: 10px;
+
+}
+.div3 .btn{
+   padding-left: 10px;
+   padding-right: 10px;
+   border: 0.5;
+   /* border-right: 50px; */
+   color: black;
+
+}
+
+.div3 button:hover {
+    opacity: 0.9;
+background-color: rgb(194, 194, 194);
+}
+.div3 button::content {
+    border-color: orange;
+}
+.div3 input{
+    padding: 20px 0px 20px 15px;
+    font-size: 1em;
+    font-weight: 700;
+    border-radius: 5px;
+    opacity: 0.8;
+    border-right: 0.5;
+}
+.div3 input:active{
+    border-right: 0;
+}
+.div3  span{
+    background-color: rgb(241, 112, 25);
+    padding: 18.9px px 21px 20px;
+    margin-left: -5px;
+    color: white;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.div4{
+    font-family: calibri;
+
+}
+.div4 .span1{
+    opacity: 0.8;
+
+}
+.bold{
+    font-size: 1em;
+    font-weight: 700;
+    cursor: pointer;
+    padding-right: 2px;
+}
+.div4 .opac{
+    cursor: pointer;
+    font-weight: 700;
+    opacity: 0.7;
+    padding-right: 2px;
+}
+
+.img3{
+    width: 100vw;
+    margin-left: -160px;
+    margin-right: auto;
+    /* margin-left: 0px;
+    margin-right: 120px; */
+    height: 100%;
+}
+/* --------- div5---------- */
+
+.div5{
+    height: 300px;
+    margin-left: 150px;
+  /* position: relative; */
+   
+}
+
+.div5 .p2{
+    font-size: 2.4em;
+    font-weight: 700;
+        /* padding-top: 200px; */
+}
+.div5 span{
+    padding-top: 50px;
+
+}
+
+
+.div5 img{
+    float: left;
+    height: 80px;
+    width: 120px;
+    cursor: pointer; 
+    row-gap:15px ;
+    /* position: absolute; */
+}
+.div5 img{
+    width: 120px;
+    height: 50px;
+    border: 1px solid white;
+    border-radius: 10px;
+    /* margin-bottom: 30px; */
+    margin-top: 50px;
+    /* content: ""; */
+    /* position: relative; */
+}
+.div5 .img4{
+    float:right;
+    margin-right: 250px;
+    margin-top: -165px;
+    height: 350px;   
+    width: auto;
+}
+/*-------       div6 FOOTER       ---------- */
+.div6{
+    display: flex;
+    margin-right: 350px;
+    background-color: black;
+    color: white;
+    padding: 20px;
+    padding-top: 80px;
+    margin-left: 80px;
+    margin-right: 100px;
+    margin-bottom: -28px; 
+    justify-content: space-around;
+
+
+}
+.div6 ul li{
+    list-style-type: none;
+    padding-bottom: 20PX;
+    margin-left: 100px;
+    transition-property: smooth;
+
+}
+
+.div6 ul li:hover{
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 600;
+}
+.div6 ul li:first-child{
+    margin-bottom: 20px;
+    opacity: 0.7;
+    cursor: text;
+    font-size: 1em;
+    font-weight: 600;
+}
+.div6 img{
+    width: auto;
+    height: 60px;
+    border: 1px solid white;
+    border-radius: 10px;
+    margin-bottom: 30px;
+    margin-left: 100px;
+    content: "";
+}
+.div6 img:hover{
+    cursor: pointer;
+    content: normal;
+    zoom: 110%;
+    position: sticky;
+    transition: width 1s 0.3s ease-in-out;
+    content:initial;
+}
+/* -------- place  --------- */
+ .place{
+     background-color: black;
+     margin-left: -80px;
+     
+ }
+ /* -------  div7 --------- */
+
+.div7p{
+    cursor: text;
+    color: grey;
+    background-color: black;
+    padding-bottom: -30px;
+    padding-top: 40px;
+    padding-left: 200px;
+    font-weight: 700;
+    font-size: 1.05em;
+}
+
+ .div7{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    margin-left: 80px;
+    margin-bottom: -28px;
+    padding-bottom: 50px;
+   
+
+}
+.div7 ul li{
+    list-style-type: none;
+    padding: 10px;
+    margin-left:    -90px;
+
+}
+.div7 ul li:hover{
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+}
+
+hr{
+    opacity: 0.5;
+    background-color: black;
+    padding-bottom: 0px;
+}
+
+/* -------  footer --------- */
+
+
+footer{
+    background-color: black;
+    padding-bottom: 50px;
+    display: flex; 
+    margin-left: 300px;
+    flex-direction: row;
+    align-self: flex-start;
+
+}
+
+
+
+.footer1{
+    padding-left: -150px;
+    display: flex;
+    flex-direction: row;
+    /* padding-top: -500px; */
+} 
+
+footer .logo{
+    height: 40px;
+    width: 150px;
+    cursor: pointer;
+    float: left;
+    position: absolute; 
+    margin-left: -165px;
+    /*     padding-top: 20px;  */
+}
+.footer-img{
+    float: right;
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    position: absolute; 
+    /* margin-left: 80px; */
+    /* margin-top: -20px; 
+     margin-right: 50px;    
+    flex-direction: row;*/
+ }
+
+
+footer .footer-img:hover{
+    width: 28px;
+    height: 30px;
+    transition: ease-in-out;
+    transition-duration: 0.4s;
+    transition-timing-function: 1.5s;
+    /* transition-delay: 0.1s; */
+    transition-property: all;
+
+}
+footer .logo:hover{
+    height: 45px;
+    width: 160px;
+    cursor: pointer;
+
+}
+
+/* 
+.section1 .section2 .section3 .section4 .section5 .section6 .section7 {
+    height: 500px;
+} */    
+
+@media screen and (max-width:1080px){
+        
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        
+        }
+        body{
+            font-family: sans-serif;
+            margin: auto;
+            padding: 0;
+            align-items: center;
+            position: absolute;
+        }
+        div {
+            margin:45px 0px 10px 80px;
+        }
+        
+        /* ------- div0 links-------- */
+        .div0 .login a{
+            color:black;
+            text-decoration: none;
+        }
+        .div0 .signup a{
+            color:white ;
+            text-decoration: none;
+        }
+        
+        .div0 .img1 {
+            cursor: pointer;
+            float: left;
+            padding-top: 20px;
+            height: 60px;
+            width: auto;
+            margin-right: 250px;
+            padding-left: 80px;
+        }
+        button{
+            margin-right: 20px;
+        }
+        .login{
+            font-weight: 700;
+            cursor: pointer;
+            font-size:0.9em;
+            border: none;
+            background: none;
+        }
+        .signup{
+            padding: 10px 25px;
+            background-color: black;
+            color: white;
+            font-weight: 700;
+            font-size: 0.8em;
+            cursor: pointer;
+        }
+        .img1 button{
+            margin-right: 50px;
+            overflow-x: hidden;
+        }
+        .img2{
+            float: right;
+            margin-top: -180px;
+            margin-right: 0px;
+            height: 550px;
+            width: 50%;
+        }
+        .type{
+            margin-left: 90px;
+            padding-top: 30px;
+            font-weight: 600;
+        }
+        .p1{
+            margin-top:  100px;
+            opacity: 0.5;
+            font-size: 1.5em;
+        
+        }
+        .div3{
+            margin-top: 30px;
+            border-right: 10px;
+        
+        }
+        .div3 .btn{
+           padding-left: 10px;
+           padding-right: 10px;
+           border: 0.5;
+           /* border-right: 50px; */
+           color: black;
+        
+        }
+        
+        .div3 button:hover {
+            opacity: 0.9;
+        background-color: rgb(194, 194, 194);
+        }
+        .div3 button::content {
+            border-color: orange;
+        }
+        .div3 input{
+            padding: 20px 0px 20px 15px;
+            font-size: 1em;
+            font-weight: 700;
+            border-radius: 5px;
+            opacity: 0.8;
+            border-right: 0.5;
+        }
+        .div3 input:active{
+            border-right: 0;
+        }
+        .div3  span{
+            background-color: rgb(241, 112, 25);
+            padding: 18.9px px 21px 20px;
+            margin-left: -5px;
+            color: white;
+            font-weight: 800;
+            cursor: pointer;
+        }
+        
+        .div4{
+            font-family: calibri;
+        
+        }
+        .div4 .span1{
+            opacity: 0.8;
+        
+        }
+        .bold{
+            font-size: 1em;
+            font-weight: 700;
+            cursor: pointer;
+            padding-right: 2px;
+        }
+        .div4 .opac{
+            cursor: pointer;
+            font-weight: 700;
+            opacity: 0.7;
+            padding-right: 2px;
+        }
+        
+        .img3{
+            width: 100vw;
+            margin-left: -160px;
+            margin-right: auto;
+            /* margin-left: 0px;
+            margin-right: 120px; */
+            height: 100%;
+        }
+        /* --------- div5---------- */
+        
+        .div5{
+            height: 300px;
+            margin-left: 150px;
+          /* position: relative; */
+           
+        }
+        
+        .div5 .p2{
+            font-size: 2.4em;
+            font-weight: 700;
+                /* padding-top: 200px; */
+        }
+        .div5 span{
+            padding-top: 50px;
+        
+        }
+        
+        
+        .div5 img{
+            float: left;
+            height: 80px;
+            width: 120px;
+            cursor: pointer; 
+            row-gap:15px ;
+            /* position: absolute; */
+        }
+        .div5 img{
+            width: 120px;
+            height: 50px;
+            border: 1px solid white;
+            border-radius: 10px;
+            /* margin-bottom: 30px; */
+            margin-top: 50px;
+            /* content: ""; */
+            /* position: relative; */
+        }
+        .div5 .img4{
+            float:right;
+            margin-right: 250px;
+            margin-top: -165px;
+            height: 350px;   
+            width: auto;
+        }
+        /*-------       div6 FOOTER       ---------- */
+        .div6{
+            display: flex;
+            margin-right: 350px;
+            background-color: black;
+            color: white;
+            padding: 20px;
+            padding-top: 80px;
+            margin-left: 80px;
+            margin-right: 100px;
+            margin-bottom: -28px; 
+            justify-content: space-around;
+        
+        
+        }
+        .div6 ul li{
+            list-style-type: none;
+            padding-bottom: 20PX;
+            margin-left: 100px;
+            transition-property: smooth;
+        
+        }
+        
+        .div6 ul li:hover{
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 600;
+        }
+        .div6 ul li:first-child{
+            margin-bottom: 20px;
+            opacity: 0.7;
+            cursor: text;
+            font-size: 1em;
+            font-weight: 600;
+        }
+        .div6 img{
+            width: auto;
+            height: 60px;
+            border: 1px solid white;
+            border-radius: 10px;
+            margin-bottom: 30px;
+            margin-left: 100px;
+            content: "";
+        }
+        .div6 img:hover{
+            cursor: pointer;
+            content: normal;
+            zoom: 110%;
+            position: sticky;
+            transition: width 1s 0.3s ease-in-out;
+            content:initial;
+        }
+        /* -------- place  --------- */
+         .place{
+             background-color: black;
+             margin-left: -80px;
+             
+         }
+         /* -------  div7 --------- */
+        
+        .div7p{
+            cursor: text;
+            color: grey;
+            background-color: black;
+            padding-bottom: -30px;
+            padding-top: 40px;
+            padding-left: 200px;
+            font-weight: 700;
+            font-size: 1.05em;
+        }
+        
+         .div7{
+            display: flex;
+            justify-content: space-evenly;
+            background-color: black;
+            color: white;
+            padding: 10px;
+            margin-left: 80px;
+            margin-bottom: -28px;
+            padding-bottom: 50px;
+           
+        
+        }
+        .div7 ul li{
+            list-style-type: none;
+            padding: 10px;
+            margin-left:    -90px;
+        
+        }
+        .div7 ul li:hover{
+            cursor: pointer;
+            font-size: 1em;
+            font-weight: 700;
+        }
+        
+        hr{
+            opacity: 0.5;
+            background-color: black;
+            padding-bottom: 0px;
+        }
+        
+        /* -------  footer --------- */
+        
+        
+        footer{
+            background-color: black;
+            padding-bottom: 50px;
+            display: flex; 
+            margin-left: 300px;
+            flex-direction: row;
+            align-self: flex-start;
+        
+        }
+        
+        
+        
+        .footer1{
+            padding-left: -150px;
+            display: flex;
+            flex-direction: row;
+            /* padding-top: -500px; */
+        } 
+        
+        footer .logo{
+            height: 40px;
+            width: 150px;
+            cursor: pointer;
+            float: left;
+            position: absolute; 
+            margin-left: -165px;
+            /*     padding-top: 20px;  */
+        }
+        .footer-img{
+            float: right;
+            height: 25px;
+            width: 25px;
+            cursor: pointer;
+            position: absolute; 
+            /* margin-left: 80px; */
+            /* margin-top: -20px; 
+             margin-right: 50px;    
+            flex-direction: row;*/
+         }
+        
+        
+        footer .footer-img:hover{
+            width: 28px;
+            height: 30px;
+            transition: ease-in-out;
+            transition-duration: 0.4s;
+            transition-timing-function: 1.5s;
+            /* transition-delay: 0.1s; */
+            transition-property: all;
+        
+        }
+        footer .logo:hover{
+            height: 45px;
+            width: 160px;
+            cursor: pointer;
+        
+        }   
+}
