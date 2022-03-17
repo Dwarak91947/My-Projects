@@ -1,0 +1,131 @@
+.section1 a{
+    text-decoration: none;
+    font-weight: 600;
+    color: white;
+}
+
+#logo,.logo{
+    font-size: 2em;
+    font-weight: 700;
+    color: red;
+    /* background-position: center; */
+    /* border-color: white;
+    padding: 12px 12px;*/
+    background-size: 10px;
+    border-radius: 10px;
+    align-items: center;
+    justify-content: center;
+    /* border-width: 1px; */
+}
+
+#logo{
+    text-align: center;
+}
+
+
+.section1{
+    background-image: url(./istockphoto-922783734-1024x1024.jpg);    
+    background-size: cover;
+    opacity: 0.9; 
+    /* background-repeat: no-repeat; */
+    /* background: -moz-linear-gradient(top,red );
+    background: -webkit-linear-gradient(top,red ); */
+    height: 400px;
+    }
+
+/* ---------  section 1 Start ----------- */
+
+.login{
+align-content: right;
+gap: 20px;
+}
+
+/* .login{
+align-content: right;
+color:white;
+} */
+
+#div1{
+    margin-top: 200px;
+}
+
+.section1 .h3,input{ 
+     margin-top: -100px;
+     color: black;
+     font-weight: 500; 
+    text-align:justifygit   }
+
+/* .section1 .h3{
+ 
+} */
+/* ---------  section 2 Start ----------- */
+.section2 h3{
+    margin-top: 50px;
+    background-color: grey;
+}
+
+/* ---------  section 3 Start ----------- */
+.section3{
+    border-color: black;    /* padding: 0px;    margin: 0px;     width: auto;*/
+}
+.section3  img{
+    width: 140px;
+    height: 120px;
+    
+}
+
+.section3 .col {
+    display: flex;
+}
+/*
+.section3 .col{
+    
+}
+*/
+/* 
+.section3 .col{
+    border-color: 2px solid #ffffff;
+   margin-right: 1px;
+    padding-right: 1px;
+     background-color: whitesmoke; 
+     background-color: black; 
+} */
+/* .section3 img div .text{
+    display: flex; */
+
+}
+
+.section3 .col .text{
+padding-left: 5px;
+}
+
+/* ---------  section 4 Start ----------- */
+
+/* .section4 img{
+    width: 140px;
+    height: 120px; */
+    /* float: left; */
+}
+
+/* ---------  section 4 End ----------- */
+
+/* @include media-breakpoint-down(xxl){
+
+}
+
+
+@media screen and (max-width:2628px) {
+    .section1{
+        background-image: url(./istockphoto-922783734-1024x1024.jpg);    
+        width: 100%;
+         background-size: 2628px; 
+        background-size: cover;
+        opacity: 0.9; 
+        background-repeat: no-repeat;
+    }
+    
+}
+
+@media (max-width: 1400px){
+    
+} */
